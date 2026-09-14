@@ -1,0 +1,34 @@
+HOSTED ON STREAMLIT COMMUNITY CLOUD — WHAT TO EXPECT
+=====================================================
+
+This copy of the dashboard is set up to run on Streamlit Community Cloud
+(a free hosting service), giving everyone one shared web link instead of
+each outlet running the app on their own PC.
+
+IMPORTANT — DATA DOES NOT PERMANENTLY SAVE ON THIS FREE HOSTING
+-----------------------------------------------------------------
+When you use "Monthly Data Upload" or "Full Master Upload" on the live
+website, it works normally during that session. BUT Community Cloud
+periodically restarts/rebuilds the app (for example after inactivity, or
+during routine maintenance). When that happens, the app resets back to
+whatever is saved in the GitHub repository — any uploads done only on the
+live site since the last GitHub update will be lost.
+
+HOW TO MAKE AN UPDATE STICK PERMANENTLY
+-----------------------------------------
+After you do a monthly upload on the live dashboard and confirm the numbers
+look right, download the updated Chandra.xlsx (or MASTER_SALES.csv /
+MASTER_SERVICE.csv, wherever the app saved it) and re-upload that same file
+into the GitHub repository (replacing the old one there). That keeps the
+GitHub copy — which is what the app reloads from after every restart — in
+sync with your latest data.
+
+If this becomes a hassle to remember every month, the fix is to move the
+data storage to a real database or a persistent cloud storage service
+instead of local files — ask for that upgrade whenever you're ready.
+
+ACCESS
+------
+This dashboard is deployed with no login — anyone who has the link can
+open it and see all customer, VIN, and revenue data. Share the link only
+with people who should have that access.

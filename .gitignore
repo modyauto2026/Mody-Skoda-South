@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+backups/
+MASTER_SALES.csv
+MASTER_SERVICE.csv
+IMPORT_LOG.csv
